@@ -25,3 +25,14 @@ dist-ssr
 
 .env
 backend/configs/llm.yaml
+
+
+# Python 后端依赖
+venv/
+.venv/
+__pycache__/
+uv.lock
+
+# Node.js 前端依赖
+node_modules/
+package-lock.json
